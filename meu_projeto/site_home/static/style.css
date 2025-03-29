@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilo para o contêiner das imagens */
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+/* Classe para as imagens com o mesmo tamanho */
+.imagem-pequena {
+    width: 300px; /* Largura fixa */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Mantém a proporção sem distorcer */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para as legendas */
+.imagem-container p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}

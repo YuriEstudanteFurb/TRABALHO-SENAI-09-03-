@@ -1,0 +1,74 @@
+/* Estilos específicos para a página Paris */
+#paris-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    text-align: center;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+img {
+    width: 400px; /* Tamanho fixo de 400px para todas as imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinhando o menu ao centro */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Justificando o texto nas seções */
+#paris-page p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Estilos para navegação */
+#paris-page nav ul li {
+    margin: 0 20px;
+}
+
+#paris-page nav a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#paris-page nav a:hover {
+    color: #3498db;
+}

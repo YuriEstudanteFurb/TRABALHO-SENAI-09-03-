@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris</title>
+    <link rel="stylesheet" href="{% static 'S_paris.css' %}">
+</head>
+<body id="paris-page"> <!-- Adicionando um ID para identificar esta página -->
+
+    <h1>Bem-vindo a Paris - A Cidade Luz</h1>
+
+    <nav>
+        <ul>
+            <li><a href=''>Início</a></li>
+            <li>Destinos</li>
+            <li><a href="oquefazer">O que fazer em Paris</a></li> <!-- Nova opção de menu -->
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Torre Eiffel</h2>
+        <img src="{% static 'torre-eiffel.jpg' %}" alt="Imagem Torre Eiffel">
+        <p>A Torre Eiffel, em Paris, é um dos monumentos mais visitados do mundo e parada obrigatória entre os viajantes que estão na Cidade Luz. Planejada para a Exposição Universal de 1889, a Torre Eiffel tem 330 metros de altura, 7,3 mil toneladas de ferro e foi erguida em tempo recorde: dois anos, dois meses e cinco dias. A belíssima estrutura recebe mais de 7,5 milhões de pessoas todos os anos. Vale a pena visitar o monumento e desfrutar dos mirantes e restaurantes, como o famoso Le Jules Verne.</p>
+    </section>
+
+    <section>
+        <h2>Museu do Louvre</h2>
+        <img src="{% static 'museu-do-louvre-em-paris.jpg' %}" alt="Imagem Museu do Louvre">
+        <p>O Museu do Louvre, em Paris, é o maior museu de arte do mundo. Com mais de 35 mil peças em exibição, incluindo obras renomadas como a Mona Lisa e a escultura da Vênus de Milo, o Louvre é uma experiência imersiva no mundo da arte e história. A visita pode ser um desafio devido ao seu tamanho colossal, mas cada pedaço do museu vale a pena ser explorado. Aproveite para garantir seu ingresso antecipado para evitar longas filas.</p>
+    </section>
+
+    <section>
+        <h2>Palácio de Versalhes</h2>
+        <img src="{% static 'palacio-de-versalhes.jpg' %}" alt="Imagem Palácio de Versalhes">
+        <p>O Palácio de Versalhes é uma das atrações mais imponentes e visitadas de Paris. Com mais de 2300 cômodos, jardins deslumbrantes e uma história rica, o palácio representa a grandiosidade da monarquia francesa. Considerado um dos maiores palácios do mundo, ele recebe anualmente milhões de visitantes. Ao explorar Versalhes, você poderá conhecer a residência real, o Salão dos Espelhos e os belíssimos jardins ao redor do palácio.</p>
+    </section>
+
+</body>
+</html>

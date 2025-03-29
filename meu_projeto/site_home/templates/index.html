@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Turismo</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Nosso Site de Turismo</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>Destinos</li>
+    </ul>
+  </nav>
+  <main>
+    <p>Explore os melhores destinos turísticos conosco!</p>
+    <!-- Contêiner para organizar as imagens e legendas -->
+    <div class="imagem-container">
+      <!-- Container para imagem 1, título e legenda -->
+      <div class="imagem-item">
+        <p class="imagem-titulo">Paris</p>
+        <a href="paris">
+          <img src="{% static 'torre-eiffel.jpg' %}" alt="Imagem do destino Paris" class="imagem-pequena">
+        </a>
+        <p>Disponível</p>
+      </div>
+      
+      <!-- Container para imagem 2, título e legenda -->
+      <div class="imagem-item">
+        <p class="imagem-titulo">Barcelona</p>
+        <img src="{% static 'barcelona.jpg' %}" alt="Imagem do destino Barcelona" class="imagem-pequena">
+        <p>Em breve</p>
+      </div>
+      
+      <!-- Container para imagem 3, título e legenda -->
+      <div class="imagem-item">
+        <p class="imagem-titulo">Brasil</p>
+        <img src="{% static 'brasil.jpg' %}" alt="Imagem do destino Brasil" class="imagem-pequena">
+        <p>Em breve</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

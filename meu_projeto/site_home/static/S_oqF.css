@@ -1,0 +1,88 @@
+/* Estilo para a página O que fazer em Paris */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    text-align: center; /* Centraliza o conteúdo do corpo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Cor azul */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em; /* Tamanho maior para o título principal */
+    color: white; /* Cor branca para garantir boa visibilidade */
+    margin: 0; /* Remove margens para melhorar o posicionamento */
+}
+
+h2 {
+    font-size: 2.5em; /* Tamanho maior para os subtítulos */
+    color: #2c3e50; /* Cor mais suave para subtítulos */
+    margin-top: 40px; /* Mais espaço acima do subtítulo */
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em; /* Tamanho para subtítulos dentro da seção */
+    color: #333; /* Cor suave para os subtítulos de seção */
+    margin-top: 20px;
+    text-align: left; /* Alinha à esquerda */
+}
+
+section {
+    margin: 20px 10%; /* Espaçamento lateral e entre as seções */
+    padding: 20px;
+    text-align: justify; /* Justifica o texto dentro das seções */
+    background-color: #fff; /* Fundo branco para as seções */
+    border-radius: 8px; /* Bordas arredondadas para seções */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras suaves nas seções */
+}
+
+p {
+    color: #555; /* Cor do texto do parágrafo */
+    font-size: 1.1em;
+    line-height: 1.6; /* Melhora a legibilidade */
+    margin-bottom: 20px; /* Espaço inferior entre os parágrafos */
+}
+
+ul {
+    text-align: left; /* Alinha os itens da lista à esquerda */
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 10px; /* Espaço entre os itens da lista */
+}
+
+/* Estilo para as imagens */
+img {
+    width: 80%; /* A largura das imagens será 80% da largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Arredonda os cantos das imagens */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras nas imagens */
+}
+
+/* Melhorando o visual da barra de navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
